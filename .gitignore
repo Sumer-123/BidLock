@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.env
+
+# Spark & Streamlit
+.streamlit/
+checkpoint/
+spark-warehouse/
+metastore_db/
+derby.log
+
+# System
+.DS_Store
+.vscode/
+.idea/
