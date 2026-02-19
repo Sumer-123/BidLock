@@ -1,6 +1,6 @@
 # 🔒 BidLock - Real-Time Auction Ingestion Engine
 
-**BidLock** is a high-concurrency real-time data engineering pipeline designed to ingest, process, and visualize auction bids. It utilizes **Apache Kafka** for high-throughput buffering, **Apache Spark Structured Streaming** for processing, and **Redis** for distributed locking to prevent race conditions (e.g., double-booking or simultaneous wins).
+**BidLock** is a high-concurrency real-time data engineering pipeline designed to ingest, process, and visualize auction bids. It utilizes **Apache Kafka** for high-throughput buffering, **Apache Spark Structured Streaming** for processing, and **Redis** for distributed locking to prevent race conditions (e.g., double-booking or simultaneous wins)
 
 ![Status](https://img.shields.io/badge/Status-Active-success)
 ![Python](https://img.shields.io/badge/Python-3.9%2B-blue)
@@ -39,3 +39,4 @@ BidLock/
 ├── streaming/          # Spark Structured Streaming logic
 ├── airflow/            # (Optional) DAGs for batch maintenance
 └── requirements.txt    # Python dependencies
+
